@@ -13,12 +13,13 @@ Ich möchte verstehen, wie Frontend und Backend miteinander kommunizieren und wi
 
 # Mögliche Technologien
 - Node.js + Express → JavaScript Backend Framework
-- ASP.NET → Backend mit C#
-- FastAPI → Python Framework
-- NestJS → Fortgeschrittenes Node.js Framework
+- ASP.NET Backend mit C#
+- FastAPI Python Framework
+- NestJS Fortgeschrittenes Node.js Framework
 
 # Entscheidung
 Ich habe mich für Node.js mit Express entschieden.
+https://expressjs.com/
 
 # Begründung
 Gleiche Programmiersprache (JavaScript)
