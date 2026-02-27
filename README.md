@@ -56,5 +56,6 @@ Die praktische Umsetzung (Installation von Node.js und Erstellung des Servers) k
 - [ ] Backend-Ordner erstellen, Node-Projekt starten und Express installieren. Server auf Port 3000 erstellen, der bei / „Backend läuft“ anzeigt.
 - [ ] Route /api/presidents erstellen, die ein JSON mit Name und Votes zurückgibt. Im Browser prüfen, ob die Daten angezeigt werden.
 - [ ] Im Frontend die statischen Daten entfernen und stattdessen mit fetch() die Daten vom Backend laden und im Chart anzeigen.
-- [ ] Backend und Frontend testen, Fehler prüfen (Console/Terminal) und im README kurz dokumentieren, wie der Server gestartet wird.
+- [ ] Backend und Frontend testen, Fehler prüfen (Console/Terminal) und im README kurz dokumentieren, wie der Server gestartet wird. 06.03.26
 
+##
