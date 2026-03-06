@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>US President Votes Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+body{
+font-family:Segoe UI;
+margin:0;
+padding:30px;
+background:linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)),url(us-flag.jpg);
+background-size:cover;
+background-attachment:fixed;
+transition:.3s;
+}
+
+.dark{
+background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(us-flag.jpg);
+color:white;
+}
+
+h2{margin-bottom:20px}
+
+.card{
+background:rgba(255,255,255,.25);
+backdrop-filter:blur(18px);
+padding:20px;
+border-radius:18px;
+margin-bottom:25px;
+box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.dark .card{
+background:rgba(30,30,30,.6);
+}
+
+button{
+padding:8px 14px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+background:#e74c3c;
+color:white;
+}
+
+button:hover{opacity:.9}
+
+input,select{
+padding:8px;
+border-radius:8px;
+border:none;
+margin-right:5px;
+}
+
+ul{list-style:none;padding:0}
+
+li{margin-bottom:8px}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+td,th{
+padding:8px;
+text-align:left;
+}
+
+tr:nth-child(even){
+background:rgba(255,255,255,.1);
+}
+
+#toast{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#2ecc71;
+color:white;
+padding:12px 20px;
+border-radius:8px;
+opacity:0;
+transition:.4s;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>US President Votes Dashboard</h2>
+
+<div class="card">
+<button id="toggleBtn">Diagramm wechseln</button>
+<button id="darkBtn">Dark Mode</button>
+<button id="exportBtn">Export CSV</button>
+
+<select id="sortSelect">
+<option value="desc">Votes ↓</option>
+<option value="asc">Votes ↑</option>
+</select>
+
+<input type="text" id="searchInput" placeholder="Suche nach Name">
+</div>
+
+<div class="card stats">
+<div id="totalVotes"></div>
+<div id="avgVotes"></div>
+<div id="maxVotes"></div>
+<div id="minVotes"></div>
+</div>
+
+<div class="card">
+<canvas id="chart" height="100"></canvas>
+</div>
+
+<div class="card">
+<h3>Ranking Tabelle</h3>
+<table id="rankingTable">
+<thead>
+<tr>
+<th>Rank</th>
+<th>Name</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+
+<div class="card">
+<h3>Neuen Präsident hinzufügen</h3>
+<input id="nameInput" placeholder="Name">
+<input id="votesInput" type="number" placeholder="Votes">
+<button id="addBtn">Hinzufügen</button>
+</div>
+
+<div class="card">
+<h3>Verwalten</h3>
+<ul id="list"></ul>
+</div>
+
+<div id="toast"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
