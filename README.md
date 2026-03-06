@@ -62,9 +62,18 @@ Die praktische Umsetzung (Installation von Node.js und Erstellung des Servers) k
 Heute wurde das Dashboard technisch verbessert, CRUD mit ID stabil umgesetzt, Design modernisiert und Funktionen wie Sortierung, Suche, Statistik, Dark Mode und CSV-Export integriert.
 
 ## 06.03.26 
-- [ ] UI weiter verbessern durch Animationen, bessere Hover-Effekte und optische Hervorhebung der Top 3.
-- [ ] UI weiter verbessern durch Animationen, bessere Hover-Effekte und optische Hervorhebung der Top 3.
-- [ ] Backend sauber strukturieren mit Error-Handling und Logging für stabilere Architektur.
-- [ ] Dashboard funktional erweitern mit Ranking-Tabelle und Vorbereitung für spätere Datenbank-Anbindung.
+- [x] UI weiter verbessern durch Animationen, bessere Hover-Effekte und optische Hervorhebung der Top 3.
+- [x] UI weiter verbessern durch Animationen, bessere Hover-Effekte und optische Hervorhebung der Top 3.
+- [x] Backend sauber strukturieren mit Error-Handling und Logging für stabilere Architektur.
+- [x] Dashboard funktional erweitern mit Ranking-Tabelle und Vorbereitung für spätere Datenbank-Anbindung.
 
+# Zusammenfassung 
+In dieser Sitzung habe ich mein Dashboard weiter verbessert. Ich habe das Design moderner gemacht und eine Ranking-Tabelle hinzugefügt. Außerdem habe ich die Benutzerfreundlichkeit verbessert, z.B. mit Bestätigungen beim Löschen und besseren Diagrammfarben für die Top-3 Präsidenten. Dadurch wirkt das Dashboard übersichtlicher und professioneller.
+
+## 13.03.26
+
+- [ ] Eine Prozentanzeige der Votes im Diagramm hinzufügen, damit die Verteilung der Stimmen besser sichtbar wird.
+- [ ] Eine kleine Animation beim Laden der Daten einbauen, damit das Dashboard dynamischer wirkt.
+- [ ] Eine Möglichkeit hinzufügen, Präsidenten nach Namen oder Votes direkt zu filtern.
+- [ ] Eine Möglichkeit hinzufügen, Präsidenten nach Namen oder Votes direkt zu filtern.
 
