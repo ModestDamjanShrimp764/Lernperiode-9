@@ -53,9 +53,18 @@ Die praktische Umsetzung (Installation von Node.js und Erstellung des Servers) k
 
 ## 27.02.26
 # Arbeitspakete
-- [ ] Backend-Ordner erstellen, Node-Projekt starten und Express installieren. Server auf Port 3000 erstellen, der bei / „Backend läuft“ anzeigt.
-- [ ] Route /api/presidents erstellen, die ein JSON mit Name und Votes zurückgibt. Im Browser prüfen, ob die Daten angezeigt werden.
-- [ ] Im Frontend die statischen Daten entfernen und stattdessen mit fetch() die Daten vom Backend laden und im Chart anzeigen.
-- [ ] Backend und Frontend testen, Fehler prüfen (Console/Terminal) und im README kurz dokumentieren, wie der Server gestartet wird. 06.03.26
+- [x] Backend-Ordner erstellen, Node-Projekt starten und Express installieren. Server auf Port 3000 erstellen, der bei / „Backend läuft“ anzeigt.
+- [x] Route /api/presidents erstellen, die ein JSON mit Name und Votes zurückgibt. Im Browser prüfen, ob die Daten angezeigt werden.
+- [x] Im Frontend die statischen Daten entfernen und stattdessen mit fetch() die Daten vom Backend laden und im Chart anzeigen.
+- [x] Backend und Frontend testen, Fehler prüfen (Console/Terminal) und im README kurz dokumentieren, wie der Server gestartet wird. 06.03.26
 
-##
+# Zusammenfassung 
+Heute wurde das Dashboard technisch verbessert, CRUD mit ID stabil umgesetzt, Design modernisiert und Funktionen wie Sortierung, Suche, Statistik, Dark Mode und CSV-Export integriert.
+
+## 06.03.26 
+- [ ] UI weiter verbessern durch Animationen, bessere Hover-Effekte und optische Hervorhebung der Top 3.
+- [ ] UI weiter verbessern durch Animationen, bessere Hover-Effekte und optische Hervorhebung der Top 3.
+- [ ] Backend sauber strukturieren mit Error-Handling und Logging für stabilere Architektur.
+- [ ] Dashboard funktional erweitern mit Ranking-Tabelle und Vorbereitung für spätere Datenbank-Anbindung.
+
+
