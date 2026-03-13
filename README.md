@@ -72,8 +72,17 @@ In dieser Sitzung habe ich mein Dashboard weiter verbessert. Ich habe das Design
 
 ## 13.03.26
 
-- [ ] Eine Prozentanzeige der Votes im Diagramm hinzufügen, damit die Verteilung der Stimmen besser sichtbar wird.
-- [ ] Eine kleine Animation beim Laden der Daten einbauen, damit das Dashboard dynamischer wirkt.
-- [ ] Eine Möglichkeit hinzufügen, Präsidenten nach Namen oder Votes direkt zu filtern.
-- [ ] Eine Möglichkeit hinzufügen, Präsidenten nach Namen oder Votes direkt zu filtern.
+- [x] Eine Prozentanzeige der Votes im Diagramm hinzufügen, damit die Verteilung der Stimmen besser sichtbar wird.
+- [x] Eine kleine Animation beim Laden der Daten einbauen, damit das Dashboard dynamischer wirkt.
+- [x] Eine Möglichkeit hinzufügen, Präsidenten nach Namen oder Votes direkt zu filtern.
+- [x] Eine Möglichkeit hinzufügen, Präsidenten nach Namen oder Votes direkt zu filtern.
+
+# Zusammenfassung
+In dieser Sitzung wurde das Dashboard funktional erweitert. Eine Prozentanzeige der Votes im Diagramm wurde integriert, damit die Stimmenverteilung besser sichtbar ist. Zusätzlich wurde eine Ladeanimation beim Laden der Daten eingebaut, eine Filterfunktion nach Präsidentennamen ergänzt und das Dashboard responsiver gestaltet, damit es auch auf kleineren Bildschirmen gut dargestellt wird.
+
+## 20.03.26
+- [ ] Eine visuelle Hervorhebung der Top-3 Präsidenten im Diagramm und in der Tabelle verbessern.
+- [ ] Eine kleine Statistik-Sektion erweitern, z.B. mit Prozentanteilen der Votes.
+- [ ] Die Benutzeroberfläche weiter optimieren (Icons, Abstände, bessere Buttons).
+- [ ] Den Code weiter strukturieren und wichtige Funktionen im Frontend kommentieren.
 
