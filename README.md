@@ -120,6 +120,15 @@ In dieser Sitzung wurde das Dashboard funktional erweitert. Eine Prozentanzeige 
 Heute habe ich das Dashboard deutlich verbessert. Ich habe die Top-3 visuell mit Medaillen hervorgehoben, die Statistik um Prozentanzeigen erweitert und das Diagramm im Trading-App-Stil optimiert. Zusätzlich habe ich die Benutzeroberfläche übersichtlicher gestaltet und den Code besser strukturiert sowie wichtige Funktionen kommentiert, damit alles verständlicher und professioneller wirkt.
 
 ## 27.03.26
-- [ ] Das gesamte Dashboard final testen (CRUD, Diagramm, Export, Dark Mode) und alle Fehler oder Bugs beheben, damit die Anwendung vollständig stabil läuft.
-- [ ] Das Projekt dokumentieren, Tutorial schreiben und abgeben (kurze Beschreibung, Funktionen erklären, Screenshots hinzufügen).
+- [x] Das gesamte Dashboard final testen (CRUD, Diagramm, Export, Dark Mode) und alle Fehler oder Bugs beheben, damit die Anwendung vollständig stabil läuft.
+- [x] Das Projekt dokumentieren, Tutorial schreiben und abgeben (kurze Beschreibung, Funktionen erklären, Screenshots hinzufügen).
+
+
+
+
+
+
+https://modestdamjanshrimp764.github.io/chartjs-projekt/
+## Tutorial
+docs/tutorial.md
 
